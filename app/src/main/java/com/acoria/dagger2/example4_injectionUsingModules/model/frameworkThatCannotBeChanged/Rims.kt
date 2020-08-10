@@ -1,0 +1,3 @@
+package com.acoria.dagger2.example4_injectionUsingModules.model.frameworkThatCannotBeChanged
+
+class Rims

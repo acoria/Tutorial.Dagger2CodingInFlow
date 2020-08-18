@@ -7,7 +7,7 @@ import dagger.Module
 import dagger.Provides
 
 @Module
-class WheelsModule {
+object WheelsModule {
 
     //use provides when you cannot access the constructor to use constructor injection
     //because it is a 3rd party lib

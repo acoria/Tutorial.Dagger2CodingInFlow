@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.acoria.dagger2.R
-import com.acoria.dagger2.example2_fieldInjection.module.Car
+import com.acoria.dagger2.example2_fieldInjection.model.Car
 import javax.inject.Inject
 
 /*Field injection:
@@ -34,7 +34,7 @@ class ActivityCarComponentWithInject : AppCompatActivity() {
 
         //Component-Name setzt sich zusammen aus: "Dagger" + <Interfacename der Component>
         val component = DaggerICarComponentWithInject.create()
-        //pass the activity/fragment to the component and ask it to inject all annotated objects
+        //Activity/Fragment an die Component übergeben, die dann alle annotated objects injected
         component.inject(this)
 
         car.drive()

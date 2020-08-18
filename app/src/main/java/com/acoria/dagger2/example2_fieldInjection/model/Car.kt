@@ -1,4 +1,4 @@
-package com.acoria.dagger2.example2_fieldInjection.module
+package com.acoria.dagger2.example2_fieldInjection.model
 
 import android.util.Log
 import javax.inject.Inject
